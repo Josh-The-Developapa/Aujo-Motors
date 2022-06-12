@@ -1,0 +1,60 @@
+.pollc {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-top: 8%;
+  position: relative;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  background: #ffffff;
+  border-radius: 20px;
+  font-family: 'Quicksand', sans-serif;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 40px;
+  width: 90%;
+}
+
+.oc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10%;
+}
+
+img {
+  object-fit: contain;
+  width: 70%;
+}
+
+.btno {
+  cursor: pointer;
+  color: #fff !important;
+  background-color: rgb(8, 134, 8);
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px;
+  width: 90%;
+  border-radius: 25px;
+  display: inline-block;
+  border: none;
+  font-family: 'Quicksand', sans-serif;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+/* @media screen and (max-width: 565px) {
+  img {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 565px) {
+  img {
+    width: 65%;
+  }
+} */
