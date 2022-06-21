@@ -1,0 +1,46 @@
+.oc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+
+img {
+  object-fit: contain;
+  width: 85%;
+}
+
+@media screen and (max-width: 640px) {
+  img {
+    width: 90%;
+  }
+}
+
+.btno {
+  cursor: pointer;
+  color: #fff !important;
+  background-color: rgb(8, 134, 8);
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px;
+  width: 90%;
+  border-radius: 10px;
+  display: inline-block;
+  border: none;
+  font-family: 'Quicksand', sans-serif;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+/* @media screen and (max-width: 565px) {
+  img {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 565px) {
+  img {
+    width: 65%;
+  }
+} */
